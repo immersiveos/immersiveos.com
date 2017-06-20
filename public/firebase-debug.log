@@ -1,0 +1,31 @@
+[debug] [2017-06-09T14:16:54.424Z] ----------------------------------------------------------------------
+[debug] [2017-06-09T14:16:54.427Z] Command:      /usr/local/Cellar/node/7.10.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-06-09T14:16:54.427Z] CLI Version:  3.9.1
+[debug] [2017-06-09T14:16:54.427Z] Platform:     darwin
+[debug] [2017-06-09T14:16:54.427Z] Node Version: v7.10.0
+[debug] [2017-06-09T14:16:54.428Z] Time:         Fri Jun 09 2017 10:16:54 GMT-0400 (EDT)
+[debug] [2017-06-09T14:16:54.428Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-09T14:16:54.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-09T14:16:54.444Z] > authorizing via signed-in user
+[debug] [2017-06-09T14:16:54.446Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-09T14:16:54.446Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/oV82FQmwnpCZ3IaqSCfoIILT3-PxIR-cCJ8ppAmi_zA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jun 09 2017 10:16:54 GMT-0400 (EDT)
+[debug] [2017-06-09T14:16:54.663Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-09T14:16:54.670Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fifth-jigsaw-167200  
+ Fri Jun 09 2017 10:16:54 GMT-0400 (EDT)
+[debug] [2017-06-09T14:16:55.238Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-09T14:16:55.239Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fifth-jigsaw-167200/tokens  
+ Fri Jun 09 2017 10:16:55 GMT-0400 (EDT)
+[debug] [2017-06-09T14:16:55.859Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fifth-jigsaw-167200'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-06-09T14:16:58.981Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/fifth-jigsaw-167200/uploads/-KmCClLPW7-3CfSNFPUN?fileCount=113&message=  
+ Fri Jun 09 2017 10:16:58 GMT-0400 (EDT)
